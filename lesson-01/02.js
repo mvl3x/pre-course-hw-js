@@ -16,3 +16,14 @@ const task3 = () => {
   console.log(--number);
 };
 task3();
+
+const task4 = () => {
+  let x = 5;
+  x += 3;
+  x *= 2;
+  x -= 4;
+  x /= 3;
+
+  console.log(x);
+};
+task4();
