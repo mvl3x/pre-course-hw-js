@@ -1,8 +1,8 @@
 let number = 1;
-const task3 = (num) => {
-  console.log(num++);
-  console.log(++num);
-  console.log(num--);
-  console.log(--num);
+const task3 = (number) => {
+  console.log(number++);
+  console.log(++number);
+  console.log(number--);
+  console.log(--number);
 };
 task3(number);
