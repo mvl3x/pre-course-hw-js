@@ -7,3 +7,12 @@ const task2 = () => {
   }
 };
 task2();
+
+const task3 = () => {
+  let number = 1;
+  console.log(number++);
+  console.log(++number);
+  console.log(number--);
+  console.log(--number);
+};
+task3();
